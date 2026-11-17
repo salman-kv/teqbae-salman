@@ -100,7 +100,7 @@ So the APK alone is not enough: whoever receives it also needs the server runnin
 ### Demo flow (3-5 min)
 Dashboard load > Punch In > Punch Out > Punch In again (the total adds up) > turn the server off (Profile > Mock API Scenario > Server error) and Punch Out / Done > close and reopen the app (pending is kept) > back to Normal and tap **Sync Now** > Attendance: open a day (the seed data has Short hours and 10 PM auto-closed examples) > Leaves: open a request, then Apply and show the validation errors (past date, overlap, short reason, over balance) and a successful submit.
 
-Recorded demo clips of every scenario (online, offline, sync, retry, geofence, rejection, leave, calendar, Profile tools) are in `deliverables/video/` (see `SCENES.md` there).
+A narrated walkthrough of the whole app (about 9 minutes) is in `video/Teqbae_HRMS_Full_Walkthrough.mp4` (in `deliverables/video/` inside the project). The same footage is split into one short narrated clip per feature in `video/features/`. The voice is a built-in synthetic Windows voice.
 ### Configurable office coordinates
 * Server side: `mock_server/config.json` (`office.latitude/longitude/radiusMeters/timezone`), or `POST /__config` with `{"latitude":..,"longitude":..,"radiusMeters":..}`.
 * Device side: **Profile → Office Geofence** overrides the coordinates and radius on the device (Reset restores the server value). If the device and server offices differ, the server rejects the event, which is a handy demo of server-side validation.
