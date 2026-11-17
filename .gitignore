@@ -47,3 +47,5 @@ app.*.map.json
 # Not pushed to git (shared separately)
 /deliverables/
 /docs/
+/deliverables/
+/docs/
