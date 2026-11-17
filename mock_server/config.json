@@ -1,0 +1,16 @@
+{
+  "port": 8080,
+  "employee": {
+    "id": "EMP-1042",
+    "name": "Salman KV",
+    "department": "Engineering"
+  },
+  "office": {
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "radiusMeters": 200,
+    "timezone": "Asia/Kolkata",
+    "utcOffsetMinutes": 330
+  },
+  "leaveTotalDays": {"casual": 10, "sick": 6}
+}

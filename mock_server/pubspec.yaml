@@ -1,0 +1,8 @@
+name: rebs_mock_server
+description: Local mock REBS HRMS API with repeatable failure scenarios.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dependencies:
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
